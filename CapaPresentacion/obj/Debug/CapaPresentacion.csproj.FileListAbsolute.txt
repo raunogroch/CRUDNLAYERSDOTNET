@@ -1,0 +1,16 @@
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\obj\Debug\CapaPresentacion.Form1.resources
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\localhost\Desktop\Proyectos .NET\CRUDBASICO\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
