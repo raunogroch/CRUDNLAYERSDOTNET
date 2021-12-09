@@ -37,7 +37,7 @@ namespace CapaPresentacion
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if(Edit)
+            if(Edit==false)
             {
                 try
                 {
@@ -51,7 +51,7 @@ namespace CapaPresentacion
                     MessageBox.Show(ex.Message);
                 }
             }
-            if(!Edit)
+            if(Edit==true)
             {
                 try
                 {
@@ -60,6 +60,7 @@ namespace CapaPresentacion
                     clearForm();
                     MessageBox.Show("Product updated successfully");
                     Edit = false;
+                    btnSave.Text = "Save";
                 }
                 catch (Exception ex)
                 {
@@ -73,6 +74,7 @@ namespace CapaPresentacion
             if(dataGridView1.SelectedRows.Count > 0)
             {
                 Edit = true;
+                btnSave.Text = "Update";
                 txtName.Text = dataGridView1.CurrentRow.Cells["Nombre"].Value.ToString();
                 txtDescription.Text = dataGridView1.CurrentRow.Cells["Descripcion"].Value.ToString();
                 txtBrand.Text = dataGridView1.CurrentRow.Cells["Marca"].Value.ToString();

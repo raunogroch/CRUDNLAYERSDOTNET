@@ -10,7 +10,7 @@ namespace CapaDatos
 {
     public class CD_Connection
     {
-        private SqlConnection connection = new SqlConnection("Server=.; Database=Practica;Integrated Security=true");
+        private SqlConnection connection = new SqlConnection(Connection.ConnectionData);
         public SqlConnection OpenConnection()
         {
             if(connection.State == ConnectionState.Closed)

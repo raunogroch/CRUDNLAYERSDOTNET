@@ -50,13 +50,13 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(413, 243);
+            this.dataGridView1.Size = new System.Drawing.Size(776, 243);
             this.dataGridView1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(470, 33);
+            this.label1.Location = new System.Drawing.Point(254, 272);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 1;
@@ -64,14 +64,14 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(615, 26);
+            this.txtName.Location = new System.Drawing.Point(399, 265);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(173, 20);
             this.txtName.TabIndex = 2;
             // 
             // txtDescription
             // 
-            this.txtDescription.Location = new System.Drawing.Point(615, 52);
+            this.txtDescription.Location = new System.Drawing.Point(399, 291);
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(173, 20);
             this.txtDescription.TabIndex = 4;
@@ -79,7 +79,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(470, 59);
+            this.label2.Location = new System.Drawing.Point(254, 298);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 13);
             this.label2.TabIndex = 3;
@@ -87,7 +87,7 @@
             // 
             // txtBrand
             // 
-            this.txtBrand.Location = new System.Drawing.Point(615, 78);
+            this.txtBrand.Location = new System.Drawing.Point(399, 317);
             this.txtBrand.Name = "txtBrand";
             this.txtBrand.Size = new System.Drawing.Size(173, 20);
             this.txtBrand.TabIndex = 6;
@@ -95,7 +95,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(470, 85);
+            this.label3.Location = new System.Drawing.Point(254, 324);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 13);
             this.label3.TabIndex = 5;
@@ -103,7 +103,7 @@
             // 
             // txtPrice
             // 
-            this.txtPrice.Location = new System.Drawing.Point(615, 104);
+            this.txtPrice.Location = new System.Drawing.Point(399, 343);
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.Size = new System.Drawing.Size(173, 20);
             this.txtPrice.TabIndex = 8;
@@ -111,7 +111,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(470, 111);
+            this.label4.Location = new System.Drawing.Point(254, 350);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(37, 13);
             this.label4.TabIndex = 7;
@@ -119,7 +119,7 @@
             // 
             // txtStock
             // 
-            this.txtStock.Location = new System.Drawing.Point(615, 130);
+            this.txtStock.Location = new System.Drawing.Point(399, 369);
             this.txtStock.Name = "txtStock";
             this.txtStock.Size = new System.Drawing.Size(173, 20);
             this.txtStock.TabIndex = 10;
@@ -127,7 +127,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(470, 137);
+            this.label5.Location = new System.Drawing.Point(254, 376);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 9;
@@ -135,7 +135,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(473, 162);
+            this.btnSave.Location = new System.Drawing.Point(257, 401);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(315, 23);
             this.btnSave.TabIndex = 11;
@@ -145,9 +145,9 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(12, 261);
+            this.btnEdit.Location = new System.Drawing.Point(257, 430);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(413, 23);
+            this.btnEdit.Size = new System.Drawing.Size(315, 23);
             this.btnEdit.TabIndex = 12;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
@@ -155,9 +155,9 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(13, 291);
+            this.btnDelete.Location = new System.Drawing.Point(257, 459);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(412, 23);
+            this.btnDelete.Size = new System.Drawing.Size(315, 23);
             this.btnDelete.TabIndex = 13;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -167,7 +167,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 492);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnSave);

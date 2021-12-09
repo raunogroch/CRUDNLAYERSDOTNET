@@ -21,13 +21,8 @@ namespace CapaDatos
         public DataTable show()
         {
             command.Connection = connection.OpenConnection();
-            //normal query
-            //command.CommandText = "Select * from Productos";
-            //end normal query
-            //procedure query
             command.CommandText = "MostrarProductos";
             command.CommandType = CommandType.StoredProcedure;
-            //end procedure query
             read = command.ExecuteReader();
             table.Load(read);
             connection.CloseConnection();
@@ -37,11 +32,6 @@ namespace CapaDatos
         public void Insert(string nombre, string desc, string marca, double precio, int stock)
         {
             command.Connection = connection.OpenConnection();
-            //normal query
-            //command.CommandText = "Insert into Productos values ('"+nombre+"', '"+desc+"', '"+marca+"', "+precio+", "+stock+")";
-            //command.CommandType = CommandType.Text;
-            //end normal query
-            //start procedure
             command.CommandText = "InsertarProductos";
             command.CommandType = CommandType.StoredProcedure;
             command.Parameters.AddWithValue("@nombre", nombre);
@@ -49,7 +39,6 @@ namespace CapaDatos
             command.Parameters.AddWithValue("@marca", marca);
             command.Parameters.AddWithValue("@precio", precio);
             command.Parameters.AddWithValue("@stock", stock);
-            //end 
             command.ExecuteNonQuery();
             connection.CloseConnection();
             command.Parameters.Clear();
